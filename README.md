@@ -23,16 +23,6 @@ A lightweight Windows C++ game engine with **Lua (sol2)** bindings that powers a
 - **S** – Crouch  
 - **R** – Restart when you’re out  
 
-```
-
-Artifacts:
-- Executable at: `build/Release/LuaEngine.exe` (project name set to `LuaEngine`)
-- Post-build steps copy:
-  - `Resources/` → next to the exe
-  - `lua/*.lua` → next to the exe (via the `CopyScripts` custom target)
-
-> If you run from Visual Studio, set **Working Directory** to the output folder so the relative `Resources/` and `lua/` paths resolve.
-
 ---
 
 ## ▶️ Run
